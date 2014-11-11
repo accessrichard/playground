@@ -25,7 +25,7 @@
             displayCount: 10,
             showSummary: true,
             summaryNode: '.log-summary',
-            pageLimit: 10,
+            limit: 10,
             number: 1,
             pageSizes: [10, 25, 50, 100, 250, 500],
             beginRange: 0,

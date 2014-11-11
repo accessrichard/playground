@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/static/paginator.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+
+    <script>
+    $(document).ready(function(){
+	$('.pagination').paginate({
+            total: 214,
+            onPageClickEvent: function (e) {
+                e.preventDefault();
+		console.log(e);
+            },
+            onRecordCountSelectionChange: function (e) {
+                e.preventDefault();
+		console.log(e);
+            }
+	});
+    });
+    </script>
+  </head>
+  <body>
+    <ul class="pagination pagination-sm"></ul>
+  </body>
+</html>

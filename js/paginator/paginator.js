@@ -132,7 +132,7 @@
 
             var $lastLi,
                 node = this.domNode,
-                select = $('<select></select>)').addClass('form-control width-pagination'), //remove width-pagination
+                select = $('<select></select>)').addClass('form-control width-pagination'),
                 li = $('<li></li>');
 
             $.each(selections, function () {

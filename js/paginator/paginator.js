@@ -16,7 +16,6 @@
         this.settings.beginRange = parseInt(this.settings.beginRange, 10);
         this.settings.endRange = parseInt(this.settings.endRange, 10);
         this.init();
-        return this;
     };
 
     Paginate.prototype = {

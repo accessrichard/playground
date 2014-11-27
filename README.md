@@ -6,3 +6,10 @@ A place to play around with random code projects that don't warrant their own sp
 ####paginator
 
 An easy to use jQuery bootstrap pagination plugin.
+
+
+####MythTV
+
+A MythTV transcoding user job to mkv
+
+Note: I need to eventually convert from bash to python so that I can access the myth api function to delete a recording once transcoded. 

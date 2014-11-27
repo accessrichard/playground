@@ -10,6 +10,6 @@ An easy to use jQuery bootstrap pagination plugin.
 
 ####MythTV\mythtranscode.sh
 
-A MythTV transcoding user job to mkv
+A MythTV user job to transcode a recording to mkv
 
 Note: I need to eventually convert from bash to python so that I can access the myth api function to delete a recording once transcoded. 

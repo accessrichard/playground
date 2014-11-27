@@ -3,12 +3,12 @@ playground
 
 A place to play around with random code projects that don't warrant their own space.
 
-####paginator
+####js\paginator.js
 
 An easy to use jQuery bootstrap pagination plugin.
 
 
-####MythTV
+####MythTV\mythtranscode.sh
 
 A MythTV transcoding user job to mkv
 
